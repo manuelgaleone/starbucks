@@ -62,11 +62,18 @@ body {
     color: white;
 }
 
+.color-black {
+    color: rgb(0, 0, 0);
+}
+
 /*Header*/
 .main-header {
     background-color: rgb(255, 255, 255);
     padding: 15px;
     margin: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 .menu-item {
@@ -83,3 +90,33 @@ li {
     display: inline;
 }
 
+/*Main*/
+.cover {
+    background-image: url(https://www.ristorando.eu/wp-content/uploads/2021/11/23ee.jpg);
+    background-size: cover;
+    height: 800px
+}
+
+.make-it {
+    padding: 45px;
+    background-color: rgba(242,240,235,0.76);
+}
+
+.make-it-title {
+    font-size: 30px;
+
+}
+
+.make-it-caption {
+    margin-top: 15px;
+}
+
+/*Effects*/
+.menu-item:hover {
+    color: green;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
