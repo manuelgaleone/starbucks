@@ -9,3 +9,77 @@
 body {
     font-family: montserrat;
 }
+
+.container {
+    width: 80%;
+    margin: auto;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    
+}
+
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+    width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+
+.col-6 {
+    width: calc(100% / 12 * 6);
+}
+
+.col-9 {
+    width: calc(100% / 12 * 9);
+}
+
+.col-10 {
+    width: calc(100% / 12 * 10);
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.color-white {
+    color: white;
+}
+
+/*Header*/
+.main-header {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: auto;
+}
+
+.menu-item {
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
