@@ -66,6 +66,10 @@ body {
     color: rgb(0, 0, 0);
 }
 
+.margin-left {
+    margin-left: 30px;
+}
+
 /*Header*/
 .main-header {
     background-color: rgb(255, 255, 255);
@@ -97,6 +101,7 @@ li {
     height: 800px
 }
 
+/*Make It*/
 .make-it {
     padding: 45px;
     background-color: rgba(242,240,235,0.76);
@@ -110,6 +115,22 @@ li {
 .make-it-caption {
     margin-top: 15px;
 }
+
+/*Menu*/
+.our-menu {
+    padding: 45px;
+}
+
+.menu-title {
+    font-size: 25px;
+}
+
+.green-small-divisor {
+    width: 100px;
+    border: 3px solid green;
+}
+
+
 
 /*Effects*/
 .menu-item:hover {
