@@ -19,7 +19,7 @@ body {
 .row {
     display: flex;
     align-items: center;
-    
+    justify-content: space-around;
 }
 
 .col-2 {
@@ -68,6 +68,10 @@ body {
 
 .margin-left {
     margin-left: 30px;
+}
+
+.margin-top-35 {
+    margin-top: 35px;
 }
 
 /*Header*/
@@ -128,9 +132,18 @@ li {
 .green-small-divisor {
     width: 100px;
     border: 3px solid green;
+    margin:auto;
+    margin-top: 20px;
 }
 
+.menu-img {
+    width: 500px;
+}
 
+.menu-sub-title {
+    color: green;
+    font-size: 20px;
+}
 
 /*Effects*/
 .menu-item:hover {
