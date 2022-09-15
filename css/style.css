@@ -145,6 +145,38 @@ li {
     font-size: 20px;
 }
 
+/*Our Coffee*/
+.our-coffee {
+    background-image: url(https://www.starbucks.it/wp-content/uploads/2022/03/CAFFe.webp);
+    
+}
+
+.our-coffee-container {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding: 150px;
+    
+}
+
+.our-coffee-title {
+    font-size: 35px;
+
+}
+
+.our-coffee-caption {
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+
+.small-green-button {
+    background-color: green;
+    padding: 20px;
+    border-radius: 45px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
 /*Effects*/
 .menu-item:hover {
     color: green;
@@ -153,4 +185,10 @@ li {
 
 .logo:hover {
     cursor: pointer;
+}
+
+.small-green-button:hover {
+    color: black;
+    background-color: lightgreen;
+    transition: 0.5s;
 }
