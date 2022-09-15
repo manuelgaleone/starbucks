@@ -19,7 +19,7 @@ body {
 .row {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    
 }
 
 .col-2 {
@@ -127,13 +127,17 @@ li {
 
 .menu-title {
     font-size: 25px;
+    margin-bottom: 25px;
 }
 
 .green-small-divisor {
     width: 100px;
     border: 3px solid green;
-    margin:auto;
     margin-top: 20px;
+}
+
+.margin-auto {
+    margin: auto;
 }
 
 .menu-img {
@@ -176,6 +180,25 @@ li {
     font-size: 15px;
     text-decoration: none;
 }
+
+/*Chi Siamo*/
+.chi-siamo-container {
+    margin: auto;
+    width: 80%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.chi-siamo-title {
+    font-size: 30px;
+}
+
+.chi-siamo-caption {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+
 
 /*Effects*/
 .menu-item:hover {
