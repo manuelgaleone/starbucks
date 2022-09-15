@@ -132,7 +132,7 @@ li {
 
 .green-small-divisor {
     width: 100px;
-    border: 3px solid green;
+    border: 3px solid #006241;
     margin-top: 20px;
 }
 
@@ -145,7 +145,7 @@ li {
 }
 
 .menu-sub-title {
-    color: green;
+    color: #006241;
     font-size: 20px;
 }
 
@@ -174,7 +174,7 @@ li {
 }
 
 .small-green-button {
-    background-color: green;
+    background-color: #006241;
     padding: 20px;
     border-radius: 45px;
     font-size: 15px;
@@ -198,11 +198,34 @@ li {
     margin-top: 30px;
 }
 
+/*Footer*/
+.main-footer {
+    background-color: #006241;
+}
 
+.footer-container {
+    padding: 50px;
+}
+
+.logo {
+    width: 85px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.margin-left-15 {
+    margin-left: 15px;
+}
+
+.social-icons {
+    font-size: 20px;
+}
 
 /*Effects*/
 .menu-item:hover {
-    color: green;
+    color: #006241;
     transition: 0.5s;
 }
 
@@ -214,4 +237,10 @@ li {
     color: black;
     background-color: lightgreen;
     transition: 0.5s;
+}
+
+.social-icons:hover {
+    color: #006241;
+    transition: 0.5s;
+    cursor: pointer;
 }
